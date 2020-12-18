@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on YT Fan&#39;s Blog</title>
+    <link>https://ytfanfan.github.io/blog/</link>
+    <description>Recent content in Blog on YT Fan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ytfanfan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A revised chart for cfd-trading.com</title>
+      <link>https://ytfanfan.github.io/blog/visualization-for-cfdtrading/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ytfanfan.github.io/blog/visualization-for-cfdtrading/</guid>
+      <description>According to the article &amp;ldquo;top performers over the past 24 hours&amp;rdquo; in website World Markets Snapshot, there are 2 key points mentioned. In the first paragraph, the author summarizes the numbers in the category by averaging. Then, the individual stock performance followed. However, it is hard to tell the key points in the current version chart that is shown above. The 2 key points are:
+ Which category performs the best/worst?</description>
+    </item>
+    
+  </channel>
+</rss>
