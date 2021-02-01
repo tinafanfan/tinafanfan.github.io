@@ -6,10 +6,22 @@
     <description>Recent content in Blog on YT Fan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ytfanfan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to install XGBoost in Python for macOS? (2020.02)</title>
+      <link>https://ytfanfan.github.io/blog/how-to-install-xgboost-in-python-for-macos/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ytfanfan.github.io/blog/how-to-install-xgboost-in-python-for-macos/</guid>
+      <description>Our goal is to install the XGBoost package, which can be compiled with multi-threads. Therefore, we need to install &amp;ldquo;GCC&amp;rdquo; which can compile multithread code. Here are the clear goals:
+ Install GCC Install XGBoost package  What have already installed:
+ Anacoda Python 3 Homebrew  Installation GCC Obtain gcc from homebrew and check the version of gcc.
+$ brew install gcc $ gcc -dumpversion Here, I was suggested by ref 2 to uncomment the following two lines in Makefile.</description>
+    </item>
     
     <item>
       <title>Frequentist Statistics vs Bayesian Statistics</title>
@@ -29,18 +41,6 @@ Before knowing the approaches deepen, we can start from an example in which we c
       <guid>https://ytfanfan.github.io/blog/visualization-for-cfdtrading/</guid>
       <description>According to the article &amp;ldquo;top performers over the past 24 hours&amp;rdquo; in website World Markets Snapshot, there are 2 key points mentioned. In the first paragraph, the author summarizes the numbers in the category by averaging. Then, the individual stock performance followed. However, it is hard to tell the key points in the current version chart that is shown above. The 2 key points are:
  Which category performs the best/worst?</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ytfanfan.github.io/blog/how-to-install-xgboost-in-python-for-macos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ytfanfan.github.io/blog/how-to-install-xgboost-in-python-for-macos/</guid>
-      <description>How to install XGBoost in Python for macOS? (2020.02) Our goal is to install the XGBoost package, which can be compiled with multi-threads. Therefore, we need to install &amp;ldquo;GCC&amp;rdquo; which can compile multithread code. Here are the clear goals:
- Install GCC Install XGBoost package  What have already installed:
- Anacoda Python 3 Homebrew  Installation GCC Obtain gcc from homebrew and check the version of gcc.
-$ brew install gcc $ gcc -dumpversion Here, I was suggested by ref 2 to uncomment the following two lines in Makefile.</description>
     </item>
     
   </channel>

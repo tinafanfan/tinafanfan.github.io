@@ -6,13 +6,31 @@
     <description>Recent content in Categories on YT Fan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ytfanfan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>visualization</title>
+      <title>Python</title>
+      <link>https://ytfanfan.github.io/categories/python/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ytfanfan.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>https://ytfanfan.github.io/categories/statistics/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ytfanfan.github.io/categories/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualization</title>
       <link>https://ytfanfan.github.io/categories/visualization/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       

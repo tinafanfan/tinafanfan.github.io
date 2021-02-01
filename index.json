@@ -1,4 +1,10 @@
 [{
+    "title": "How to install XGBoost in Python for macOS? (2020.02)",
+    "date": "",
+    "description": "",
+    "body": "Our goal is to install the XGBoost package, which can be compiled with multi-threads. Therefore, we need to install \u0026ldquo;GCC\u0026rdquo; which can compile multithread code. Here are the clear goals:\n Install GCC Install XGBoost package  What have already installed:\n Anacoda Python 3 Homebrew  Installation GCC Obtain gcc from homebrew and check the version of gcc.\n$ brew install gcc $ gcc -dumpversion Here, I was suggested by ref 2 to uncomment the following two lines in Makefile.\nexport CC = gcc export CXX = g++ Then, add the following two lines in Makefile. (version of gcc)\nexport CC = gcc-12 export CXX = g++-12 XGBoost Obtain libomp and cmake from homebrew.\n$ brew install libomp # for multithread $ brew install cmake # for cmake command below change the directory to where you want to save xgboost folder and clone the repository.\n$ cd \u0026lt;dir\u0026gt; $ git clone --recursive https://github.com/dmlc/xgboost Create the build/ directory and invoke CMake. After invoking CMake, you can build XGBoost with make:\n$ cd \u0026lt;dir\u0026gt; $ mkdir build # create a new and empty folder under \u0026lt;dir\u0026gt; $ cd build # change directory to build $ cmake .. # build several files automatically $ make -j4 # specify the no. of cores Install the XGBoost to your current Python environment.\n$ python [setup.py](http://setup.py/) install Finally, we can use conda list to check whether downloads successfully or not.\n筆記  Ref 2 安裝xgboost的方法不適用，所以找到 Ref 1 官方文件，其中有使用libomp，因此不確定gcc之必要性 cmake 指令需要利用homebrew安裝 cmake(官方文件未註明) .. 代表上一層目錄；../.. 代表上上層目錄  Reference XGBoost official installation guide\n如何在OS X上安裝XGBoost (Morris Tai, 2017/8/3)\n",
+    "ref": "/blog/how-to-install-xgboost-in-python-for-macos/"
+  },{
     "title": "Frequentist Statistics vs Bayesian Statistics",
     "date": "",
     "description": "",
@@ -16,12 +22,6 @@
     "description": "",
     "body": "",
     "ref": "/about/"
-  },{
-    "title": "",
-    "date": "",
-    "description": "",
-    "body": "How to install XGBoost in Python for macOS? (2020.02) Our goal is to install the XGBoost package, which can be compiled with multi-threads. Therefore, we need to install \u0026ldquo;GCC\u0026rdquo; which can compile multithread code. Here are the clear goals:\n Install GCC Install XGBoost package  What have already installed:\n Anacoda Python 3 Homebrew  Installation GCC Obtain gcc from homebrew and check the version of gcc.\n$ brew install gcc $ gcc -dumpversion Here, I was suggested by ref 2 to uncomment the following two lines in Makefile.\nexport CC = gcc export CXX = g++ Then, add the following two lines in Makefile. (version of gcc)\nexport CC = gcc-12 export CXX = g++-12 XGBoost Obtain libomp and cmake from homebrew.\n$ brew install libomp # for multithread $ brew install cmake # for cmake command below change the directory to where you want to save xgboost folder and clone the repository.\n$ cd \u0026lt;dir\u0026gt; $ git clone --recursive https://github.com/dmlc/xgboost Create the build/ directory and invoke CMake. After invoking CMake, you can build XGBoost with make:\n$ cd \u0026lt;dir\u0026gt; $ mkdir build # create a new and empty folder under \u0026lt;dir\u0026gt; $ cd build # change directory to build $ cmake .. # build several files automatically $ make -j4 # specify the no. of cores Install the XGBoost to your current Python environment.\n$ python [setup.py](http://setup.py/) install Finally, we can use conda list to check whether downloads successfully or not.\n筆記  Ref 2 安裝xgboost的方法不適用，所以找到 Ref 1 官方文件，其中有使用libomp，因此不確定gcc之必要性 cmake 指令需要利用homebrew安裝 cmake(官方文件未註明) .. 代表上一層目錄；../.. 代表上上層目錄  Reference XGBoost official installation guide\n如何在OS X上安裝XGBoost (Morris Tai, 2017/8/3)\n",
-    "ref": "/blog/how-to-install-xgboost-in-python-for-macos/"
   },{
     "title": "",
     "date": "",
