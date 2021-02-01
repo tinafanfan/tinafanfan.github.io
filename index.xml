@@ -42,6 +42,18 @@ Before knowing the approaches deepen, we can start from an example in which we c
     
     <item>
       <title></title>
+      <link>https://ytfanfan.github.io/blog/how-to-install-xgboost-in-python-for-macos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ytfanfan.github.io/blog/how-to-install-xgboost-in-python-for-macos/</guid>
+      <description>How to install XGBoost in Python for macOS? (2020.02) Our goal is to install the XGBoost package, which can be compiled with multi-threads. Therefore, we need to install &amp;ldquo;GCC&amp;rdquo; which can compile multithread code. Here are the clear goals:
+ Install GCC Install XGBoost package  What have already installed:
+ Anacoda Python 3 Homebrew  Installation GCC Obtain gcc from homebrew and check the version of gcc.
+$ brew install gcc $ gcc -dumpversion Here, I was suggested by ref 2 to uncomment the following two lines in Makefile.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://ytfanfan.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
