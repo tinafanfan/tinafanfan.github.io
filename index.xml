@@ -6,10 +6,19 @@
     <description>Recent content on YT Fan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ytfanfan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Temporal difference learning for 2048 game</title>
+      <link>https://ytfanfan.github.io/blog/temporal-difference-learning-for-2048-game/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ytfanfan.github.io/blog/temporal-difference-learning-for-2048-game/</guid>
+      <description>MathJax.Hub.Config({ tex2jax: { skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;], inlineMath: [[&#39;$$&#39;,&#39;$$&#39;]] &amp;&amp; [[&#39;$&#39;,&#39;$&#39;]] } });   Temporal difference (TD) learning TD($\lambda$) mechanism TD(0) is one of TD learning method which considers only the next state, yet TD(1) is the other kind of TD learning which take the accumulated reward of the following states in the account. TD(1) is the well-known Monte-Carlo method. The difference between them is the target in evaluation function:</description>
+    </item>
     
     <item>
       <title>How to install XGBoost in Python for macOS? (2020.02)</title>

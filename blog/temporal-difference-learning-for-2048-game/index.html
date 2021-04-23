@@ -2,18 +2,21 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-<title>YT Fan&#39;s Blog</title>
+<title>Temporal difference learning for 2048 game - YT Fan&#39;s Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 <meta name="generator" content="Hugo 0.74.3" /><meta property="og:site_name" content="YT Fan&#39;s Blog">
-  <meta property="og:title" content="YT Fan&#39;s Blog">
+  <meta property="og:title" content="Temporal difference learning for 2048 game">
   <meta property="og:description" content="A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo.">
   <meta property="description" content="A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo.">
-  <meta property="og:url" content="https://ytfanfan.github.io/">
-  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ytfanfan.github.io/blog/temporal-difference-learning-for-2048-game/">
+  <meta property="og:type" content="article">
   
-    <meta property="og:image" content="https://ytfanfan.github.io/img/main/yt.jpg">
+    
+      <meta property="og:image" content="https://ytfanfan.github.io/img/TD-learning/title.png">
+      <meta property="og:image:alt" content="">
+    
   
   <link rel="stylesheet" href="/css/bundle.min.d9e04ae08c9b3049b766dbd4aeab7d862c5ea1d13679b621490e0f5df5507497.css" integrity="sha256-2eBK4IybMEm3ZtvUrqt9hixeodE2ebYhSQ4PXfVQdJc="><link rel="stylesheet" href="/css/add-on.css">
 </head>
@@ -21,48 +24,12 @@
   <body>
     
 
-  <div id="theme-message" style="background-color:#3c3b3b;color:#f4f4f4;margin:auto auto;padding:.25em 2em;width:75%;">
-    <p style="text-align:center;">This message, related to the development of the theme, only displays on the
-      <code>localhost</code> homepage to notify you of any important theme changes.</p>
-      <hr>
-      <h5 style="color:#f4f4f4;text-align:center;"><i class="fas fa-exclamation-triangle"></i>Version 2.0.0 - July 20, 2020<i class="fas fa-exclamation-triangle"></i></h5>
-    <p>Below are the following changes that <em>could</em> be breaking changes for your site. For more details on any change, please refer to <a href="https://github.com/pacollins/hugo-future-imperfect-slim/pull/154">PR #154</a>.</p>
-<p>The major breaking change is:</p>
-<ol>
-<li>Users that have front matter that utilize <code>images</code> (backwards compatibility for <code>featured</code> and associated parameters still remains) <em>will</em> need to adjust from <code>[images]=&quot;SRC&quot;</code> to the new format.</li>
-</ol>
-<pre><code>[[images]]
-    src = &quot;&quot; // Link to image
-    alt = &quot;&quot; // Alt text for image
-    stretch = // Optional: See screenshots for referenced values and outcomes
-</code></pre><p>If you utilize any of the following, there <em>might</em> be a breaking:</p>
-<ol>
-<li>User custom templates <em>may</em> require adjustment.</li>
-<li>User custom i18n languages, or custom templates referencing i18n translations <em>may</em> require adjustment.</li>
-<li>User custom template for comments <em>will</em> require adjustment <em>if</em> it uses the theme&rsquo;s CSS and/or JS.</li>
-<li>User custom CSS <em>may</em> need to adjust due to a variety of class name changes and specificity changes.</li>
-</ol>
-<p>While I realize this is inconvenient, I hope that it is worth it to you in the long run. Thanks for using the theme, and feel free to submit issues as needed.</p>
-
-    <div style="text-align:center;">
-      <button onclick="removeBox()" class="button" style="color:#f4f4f4;margin-bottom:1em;">Close Notification Until Next Update</button>
-    </div>
-    <script>
-      if (window.location.href.indexOf('localhost:') < 1 || window.localStorage.getItem('HFIS-version') == '2.0.0') {
-        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
-      }
-      function removeBox() {
-        window.localStorage.setItem('HFIS-version', '2.0.0');
-        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
-      }
-    </script>
-  </div>
 <header id="site-header">
   <nav id="site-nav">
     <h1 class="nav-title">
       <a href="/" class="nav">
         
-          YT Fan's Blog
+          Blog
         
       </a>
     </h1>
@@ -105,7 +72,12 @@
   <menu id="lang-menu" class="flyout-menu menu">
   <a href="#" lang="en" class="nav link active">English (en)</a>
   
-      <a href="https://ytfanfan.github.io/zh-tw/" lang="zh-tw" class="nav link">中文 (zh-tw)</a>
+    
+      
+    
+      
+        <a href="/zh-tw" lang="zh-tw" class="nav no-lang link">中文 (zh-tw)</a>
+      
     
   
 </menu>
@@ -136,8 +108,6 @@
     <footer>
       <ul class="socnet-icons">
         
-    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fas fa-rss"></a></li>
-
 
         <li><a href="//github.com/ytfanfan" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
 
@@ -188,10 +158,8 @@
 
       <main id="site-main">
         
-  
-  
-    <article class="post">
-  <header>
+  <article class="post">
+    <header>
   <div class="title">
     
       <h2><a href="/blog/temporal-difference-learning-for-2048-game/">Temporal difference learning for 2048 game</a></h2>
@@ -205,16 +173,98 @@
   </div>
 </header>
 
-  <div class="content">
-    <a href="/blog/temporal-difference-learning-for-2048-game/" class="image" style="--bg-image: url('https://ytfanfan.github.io/img/TD-learning/title.png');">
+    <div id="socnet-share">
+      
+
+
+
+
+
+    </div>
+    <div class="content">
+      <a href="/blog/temporal-difference-learning-for-2048-game/" class="image" style="--bg-image: url('https://ytfanfan.github.io/img/TD-learning/title.png');">
     <img class="stretchV" src="https://ytfanfan.github.io/img/TD-learning/title.png" alt="">
   </a>
-    
-    <p>TD(0) is one of TD learning method which considers only the next state, yet TD(1) is the other kind of TD learning which take the accumulated reward of the following states in the account. TD(1) is the well-known Monte-Carlo method. The difference between them is the target in evaluation function:</p>
-  </div>
-  <footer>
-    <a href="/blog/temporal-difference-learning-for-2048-game/" class="button big">Read More</a>
-    <div class="stats">
+      <head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$$','$$']] && [['$','$']]
+            }
+        });
+    </script>
+</head>
+<h1 id="temporal-difference-td-learning">Temporal difference (TD) learning</h1>
+<h2 id="tdlambda-mechanism">TD($\lambda$) mechanism</h2>
+<p>TD(0) is one of TD learning method which considers only the next state, yet TD(1) is the other kind of TD learning which take the accumulated reward of the following states in the account. TD(1) is the well-known Monte-Carlo method. The difference between them is the target in evaluation function:</p>
+<p>$$V(s) \gets V(s) + \alpha(\text{target} - V(s))$$</p>
+<p>Furthermore, TD($\lambda$) is the generalized version contains both characteristic of TD(0) and TD(1), and is presented in the following example.</p>
+<p>Here is one game composed only three actions:</p>
+<p>$$s_0 - (a_0, r_0) - s_0&rsquo; \to s_1 - (a_1, r_1) - s_1&rsquo; \to s_2$$</p>
+<p>The target($s_0$) of TD(0) and TD(1) is $r_0 + V(s_1)$ and $r_0 + r_1 + r_2$ respectively. For TD($\lambda$), the target is</p>
+<p>$$\text{target}(s_0) = (1-\lambda) (r_1 + V(s_1)) + (\lambda \times (1-\lambda))(r_0 + r_1 + V(s_2)) + (\lambda \times \lambda) (r_0+r_1+r_2)$$</p>
+<p>$$= r_0 + (1-\lambda)V(s_1) + \lambda \times \text{target}(s_1)$$</p>
+<h2 id="after-state">After-state</h2>
+<p>The after-state version uses the state after action to evaluate the value function.</p>
+<p>$$s_0 - (a_0, r_0) - s_0&rsquo; \to s_1 - (a_1, r_1) - s_1&rsquo; \to s_2$$</p>
+<p>$$V(s_0&rsquo;) \gets V(s_0&rsquo;) + \alpha(r_0 + V(s_1&rsquo;) - V(s_0&rsquo;))$$</p>
+<img src="/img/TD-learning/Untitled-0.png" width="35%">
+<p>Decide the action based on the largest target.</p>
+<h2 id="before-state">Before-State</h2>
+<p>$$s_0 - (a_0, r_0) - s_0&rsquo; \to s_1 - (a_1, r_1) - s_1&rsquo; \to s_2$$</p>
+<p>$$V(s_0) \gets V(s_0) + \alpha(r_0 + V(s_1) - V(s_0))$$</p>
+<p>The (before-)state version uses the state before action to evaluate the value function.</p>
+<img src="/img/TD-learning/Untitled-1.png" width="90%">
+<p>Decide the action based on the largest target.</p>
+<h1 id="n-tuple-network">N-tuple network</h1>
+<p>The goal of the n-tuple network is to use features to learn instead of the whole board. Each feature has 8 isomorphisms because of the rotation and reflection.</p>
+<p>In my model, I train the model with 6 features that are shown below. The features are encoded as a 1-d array with length = $8 \times 16^6$  which is represented as $x(S)$. (All zeros, except 8 ones.) The value function is approximated by the linear combination of $x(S)$ and weight $\theta$. The elements of the vector   represent the scores of each tuple and are updated through the equation:</p>
+<p>$$\theta \gets \theta + \alpha \Delta V\cdot x(S)$$</p>
+<h1 id="practice">Practice</h1>
+<img src="/img/TD-learning/Untitled-2.png" width="50%">
+<img src="/img/TD-learning/Untitled-3.png" width="50%">
+<p>There are 5 functions assigned in the sample code. I revised 2 of them, “select_best_move” and “update_episode” and remain others the same with the demo code.</p>
+<p>In “select_best_move” function, the key point is that the random tile pop-up with the probability needs to be considered in each move. Inspired by this concept, I add a for loop and an if statement to achieve.</p>
+<p>In the loop, each grid will be check whether it is empty or not. In the empty grid, the 2-tile and 4-tile will be added and calculate theirs value (using “estimate” function), respectively. The values are summarised using weighted average with the weights 0.9 and 0.1. In the last, the value accumulated by the loop needs to divide by the number of the loop.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">16</span>; i<span style="color:#f92672">++</span>) {
+	<span style="color:#66d9ef">if</span> (after.at(i) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
+		after.set(i, <span style="color:#ae81ff">1</span>);
+		value_ <span style="color:#f92672">+=</span> <span style="color:#ae81ff">0.9</span> <span style="color:#f92672">*</span> estimate(after);
+		after.set(i, <span style="color:#ae81ff">2</span>);
+		value_ <span style="color:#f92672">+=</span> <span style="color:#ae81ff">0.1</span> <span style="color:#f92672">*</span> estimate(after);
+		after.set(i, <span style="color:#ae81ff">0</span>);
+		zero_count <span style="color:#f92672">++</span>;
+	}
+}
+<span style="color:#66d9ef">if</span> (zero_count) value_ <span style="color:#f92672">/=</span> zero_count;
+</code></pre></div><p>Second, the value updating through $V(s_t) \gets V(s_t) + \alpha(r_t + V(s_{t+1}) - V(s_t))$ is implemented in the “update_episode” function.</p>
+<p>Compared to the demo code, 2 places are modified. One is that no initial expression in for statement since $V(s_{t+1})$ is adopted in updating $V(s_t)$. Using the example</p>
+<p>to explain the steps in for loop:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#66d9ef">float</span> exact <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+<span style="color:#66d9ef">for</span> ( ; path.size(); path.pop_back()) {
+	state<span style="color:#f92672">&amp;</span> move <span style="color:#f92672">=</span> path.back();      
+	exact <span style="color:#f92672">+=</span> move.reward();
+	<span style="color:#66d9ef">float</span> error <span style="color:#f92672">=</span> exact <span style="color:#f92672">-</span> estimate(move.before_state());
+	exact <span style="color:#f92672">=</span> update(move.before_state(), alpha <span style="color:#f92672">*</span> error);
+}
+</code></pre></div><p>$$s_0 - (a_0, r_0) - s_0&rsquo; \to s_1 - (a_1, r_1) - s_1&rsquo; \to s_2$$</p>
+<ol>
+<li>Select the final state $(s_2, s_2, x, -1)$.</li>
+<li>Calculate target = $r_2 + V(s_{3})$ by **exact** = $(-1) + 0$.</li>
+<li>Calculate $r_2 + V(s_{3}) - V(s_2)$ by **error** = exact - $V(s_2)$.</li>
+<li>Update $V(s_2)$ by <strong>exact</strong> = $V(s_2) + \alpha (\text{error})$</li>
+<li>Select the state $(s_1, s_1&rsquo;, r_1, a_1)$.</li>
+<li>Calculate target = $r_1 + V(s_{2})$ by **exact** = $r_1$ + exact</li>
+<li>Calculate $r_1 + V(s_{2}) - V(s_1)$ by **error** = exact - $V(s_1)$</li>
+<li>Update $V(s_1)$ by $V(s_1)+\alpha(\text{error})$</li>
+<li>Repeat steps 5 to 8. (Replace $s_1$ by $s_0$ and $s_2$ by $s_1$).</li>
+</ol>
+
+    </div>
+    <footer>
+      <div class="stats">
   
     <ul class="categories">
       
@@ -235,151 +285,13 @@
   
 </div>
 
-  </footer>
-</article>
+    </footer>
+  </article>
 
-  
-    <article class="post">
-  <header>
-  <div class="title">
-    
-      <h2><a href="/blog/how-to-install-xgboost-in-python-for-macos/">How to install XGBoost in Python for macOS? (2020.02)</a></h2>
-    
-    
-  </div>
-  <div class="meta">
-    <time datetime="2021-02-01 00:00:00 &#43;0000 UTC">February 1, 2021</time>
-    
-    <p>2-Minute Read</p>
-  </div>
-</header>
-
-  <div class="content">
-    <a href="/blog/how-to-install-xgboost-in-python-for-macos/" class="image" style="--bg-image: url('https://ytfanfan.github.io/img/2021/0201/xgboost.png');">
-    <img class="stretchV" src="https://ytfanfan.github.io/img/2021/0201/xgboost.png" alt="">
-  </a>
-    
-    <p>Our goal is to install the XGBoost package, which can be compiled with multi-threads. Therefore, we need to install &ldquo;GCC&rdquo; which can compile multithread code. Here are the clear goals:</p>
-  </div>
-  <footer>
-    <a href="/blog/how-to-install-xgboost-in-python-for-macos/" class="button big">Read More</a>
-    <div class="stats">
-  
-    <ul class="categories">
-      
-        
-          <li><a class="article-terms-link" href="/categories/python/">Python</a></li>
-        
-      
-    </ul>
-  
-  
-    <ul class="tags">
-      <li>None</li>
-    </ul>
-  
-</div>
-
-  </footer>
-</article>
-
-  
-    <article class="post">
-  <header>
-  <div class="title">
-    
-      <h2><a href="/blog/frequentist-statistics-vs-bayesian-statistics/">Frequentist Statistics vs Bayesian Statistics</a></h2>
-    
-    
-  </div>
-  <div class="meta">
-    <time datetime="2020-12-18 00:00:00 &#43;0000 UTC">December 18, 2020</time>
-    
-    <p>2-Minute Read</p>
-  </div>
-</header>
-
-  <div class="content">
-    <a href="/blog/frequentist-statistics-vs-bayesian-statistics/" class="image" style="--bg-image: url('https://ytfanfan.github.io/img/2020/1218/Bayesianpng.png');">
-    <img class="stretchV" src="https://ytfanfan.github.io/img/2020/1218/Bayesianpng.png" alt="">
-  </a>
-    
-    <p>Knowledge is accumulated based on numbers and text. Each number represents the outcome of the observed event. Extract the information among numbers and estimated the randomness behind events are methods to gather knowledge.  Based on probability, which describes randomness, Statistics is a collection of approaches that provides summaries and inferences. According to different utilizations on probability, two main schools are developed: Frequentist Statistics and Bayesian Statistics.</p>
-  </div>
-  <footer>
-    <a href="/blog/frequentist-statistics-vs-bayesian-statistics/" class="button big">Read More</a>
-    <div class="stats">
-  
-    <ul class="categories">
-      
-        
-          <li><a class="article-terms-link" href="/categories/statistics/">Statistics</a></li>
-        
-      
-    </ul>
-  
-  
-    <ul class="tags">
-      <li>None</li>
-    </ul>
-  
-</div>
-
-  </footer>
-</article>
-
-  
-    <article class="post">
-  <header>
-  <div class="title">
-    
-      <h2><a href="/blog/visualization-for-cfdtrading/">A revised chart for cfd-trading.com</a></h2>
-    
-    
-  </div>
-  <div class="meta">
-    <time datetime="2020-12-17 00:00:00 &#43;0000 UTC">December 17, 2020</time>
-    
-    <p>1-Minute Read</p>
-  </div>
-</header>
-
-  <div class="content">
-    <a href="/blog/visualization-for-cfdtrading/" class="image" style="--bg-image: url('https://ytfanfan.github.io/img/2020/1217/topstocks-vis.png');">
-    <img class="stretchV" src="https://ytfanfan.github.io/img/2020/1217/topstocks-vis.png" alt="">
-  </a>
-    
-    <p>According to the article &ldquo;top performers over the past 24 hours&rdquo; in website <a href="https://www.cfdtrading.com/">World Markets Snapshot</a>, there are 2 key points mentioned. In the first paragraph, the author summarizes the numbers in the category by averaging. Then, the individual stock performance followed. However, it is hard to tell the key points in the current version chart that is shown above. The 2 key points are:</p>
-  </div>
-  <footer>
-    <a href="/blog/visualization-for-cfdtrading/" class="button big">Read More</a>
-    <div class="stats">
-  
-    <ul class="categories">
-      
-        
-          <li><a class="article-terms-link" href="/categories/visualization/">Visualization</a></li>
-        
-      
-    </ul>
-  
-  
-    <ul class="tags">
-      
-        
-          <li><a class="article-terms-link" href="/tags/stocks/">stocks</a></li>
-        
-      
-    </ul>
-  
-</div>
-
-  </footer>
-</article>
-
-  
   <div class="pagination">
     
+    
+      <a href="/blog/how-to-install-xgboost-in-python-for-macos/" class="button right"><span>How to install XGBoost in Python for macOS? (2020.02)</span></a>
     
   </div>
 
@@ -477,8 +389,6 @@
   
       <ul class="socnet-icons">
         
-    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fas fa-rss"></a></li>
-
 
         <li><a href="//github.com/ytfanfan" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
 
