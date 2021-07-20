@@ -18,7 +18,7 @@
       <meta property="og:image:alt" content="">
     
   
-  <link rel="stylesheet" href="/css/bundle.min.e03997ac2cea876b18ebb8e55ccba1a4fbabf1c3a8cdbdbfd03a01706432574b.css" integrity="sha256-4DmXrCzqh2sY67jlXMuhpPur8cOozb2/0DoBcGQyV0s="><link rel="stylesheet" href="/css/add-on.css">
+  <link rel="stylesheet" href="/css/bundle.min.7ab82a1c2cc52d98e195ea9f9628c8b25795ef0daa2a549295da8dc2e5856fbc.css" integrity="sha256-ergqHCzFLZjhleqflijIsleV7w2qKlSSldqNwuWFb7w="><link rel="stylesheet" href="/css/add-on.css">
 </head>
 
   <body>
@@ -210,21 +210,21 @@
 <p>The after-state version uses the state after action to evaluate the value function.</p>
 <p>$$s_0 - (a_0, r_0) - s_0&rsquo; \to s_1 - (a_1, r_1) - s_1&rsquo; \to s_2$$</p>
 <p>$$V(s_0&rsquo;) \gets V(s_0&rsquo;) + \alpha(r_0 + V(s_1&rsquo;) - V(s_0&rsquo;))$$</p>
-<img src="/img/TD-learning/Untitled-0.png" width="35%">
+<img src="/img/TD-learning/Untitled-0.png" width="35%" class = "img-inline">
 <p>Decide the action based on the largest target.</p>
 <h2 id="before-state">Before-State</h2>
 <p>$$s_0 - (a_0, r_0) - s_0&rsquo; \to s_1 - (a_1, r_1) - s_1&rsquo; \to s_2$$</p>
 <p>$$V(s_0) \gets V(s_0) + \alpha(r_0 + V(s_1) - V(s_0))$$</p>
 <p>The (before-)state version uses the state before action to evaluate the value function.</p>
-<img src="/img/TD-learning/Untitled-1.png" width="90%">
+<img src="/img/TD-learning/Untitled-1.png" width="90%" class = "img-inline">
 <p>Decide the action based on the largest target.</p>
 <h1 id="n-tuple-network">N-tuple network</h1>
 <p>The goal of the n-tuple network is to use features to learn instead of the whole board. Each feature has 8 isomorphisms because of the rotation and reflection.</p>
 <p>In my model, I train the model with 6 features that are shown below. The features are encoded as a 1-d array with length = $8 \times 16^6$  which is represented as $x(S)$. (All zeros, except 8 ones.) The value function is approximated by the linear combination of $x(S)$ and weight $\theta$. The elements of the vector   represent the scores of each tuple and are updated through the equation:</p>
 <p>$$\theta \gets \theta + \alpha \Delta V\cdot x(S)$$</p>
 <h1 id="practice">Practice</h1>
-<img src="/img/TD-learning/Untitled-2.png" width="50%">
-<img src="/img/TD-learning/Untitled-3.png" width="50%">
+<img src="/img/TD-learning/Untitled-2.png" width="50%" class = "img-inline">
+<img src="/img/TD-learning/Untitled-3.png" width="50%" class = "img-inline">
 <p>There are 5 functions assigned in the sample code. I revised 2 of them, “select_best_move” and “update_episode” and remain others the same with the demo code.</p>
 <p>In “select_best_move” function, the key point is that the random tile pop-up with the probability needs to be considered in each move. Inspired by this concept, I add a for loop and an if statement to achieve.</p>
 <p>In the loop, each grid will be check whether it is empty or not. In the empty grid, the 2-tile and 4-tile will be added and calculate theirs value (using “estimate” function), respectively. The values are summarised using weighted average with the weights 0.9 and 0.1. In the last, the value accumulated by the loop needs to divide by the number of the loop.</p>
