@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ytfanfan.github.io/fr/blog/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://ytfanfan.github.io/fr/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/fr/categories/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://ytfanfan.github.io/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/fr/tags/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://ytfanfan.github.io/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/fr/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://ytfanfan.github.io/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/fr/blog/%E4%B8%AD%E6%96%87%E6%96%87%E7%AB%A0/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/fr/categories/%E7%B5%B1%E8%A8%88/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/fr/tags/%E9%9A%A8%E7%AD%86/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/fr/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://ytfanfan.github.io/fr/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/fr/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://ytfanfan.github.io/fr/contact/"
+                />
+  </url>
+  
+</urlset>

@@ -5,6 +5,16 @@
   <url>
     <loc>https://ytfanfan.github.io/blog/</loc>
     <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://ytfanfan.github.io/fr/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/blog/"
+                />
   </url>
   
   <url>
@@ -17,8 +27,8 @@
     <lastmod>2021-04-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-tw"
-                href="https://ytfanfan.github.io/zh-tw/"
+                hreflang="fr"
+                href="https://ytfanfan.github.io/fr/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -32,8 +42,8 @@
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-tw"
-                href="https://ytfanfan.github.io/zh-tw/categories/"
+                hreflang="fr"
+                href="https://ytfanfan.github.io/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -77,8 +87,8 @@
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-tw"
-                href="https://ytfanfan.github.io/zh-tw/tags/"
+                hreflang="fr"
+                href="https://ytfanfan.github.io/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -95,10 +105,30 @@
   <url>
     <loc>https://ytfanfan.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://ytfanfan.github.io/fr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/about/"
+                />
   </url>
   
   <url>
     <loc>https://ytfanfan.github.io/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://ytfanfan.github.io/fr/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/contact/"
+                />
   </url>
   
 </urlset>
