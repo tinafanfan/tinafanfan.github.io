@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on YT Fan&#39;s Blog</title>
+    <link>https://ytfanfan.github.io/categories/deep-learning/</link>
+    <description>Recent content in Deep Learning on YT Fan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ytfanfan.github.io/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在 Windows 中安裝 Ubuntu 雙系統</title>
+      <link>https://ytfanfan.github.io/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-%E9%9B%99%E7%B3%BB%E7%B5%B1/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ytfanfan.github.io/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-%E9%9B%99%E7%B3%BB%E7%B5%B1/</guid>
+      <description>利用高階 NVIDIA 顯示卡做深度學習可以大幅提身運算效能，然而顯示卡在 windows 系統下會限制其計算能力。因此，這篇文章記錄在 windows 環境中安裝 Ubuntu 雙系統，並更新驅動程式。安裝其他深度學習所需程式則會在下一篇文章中介紹。
+安裝步驟 主要分成二部分，首先是重頭戲，分割 windows 硬碟以安裝 Ubuntu 系統，再者是更新 NVIDIA 的驅動程式。
+安裝 Ubuntu 雙系統 分割硬碟安裝 Ubuntu 的步驟我是跟著 YouTube 頻道增廣建文做的，他講解得非常仔細，包含前置作業，使用 USB 作為安裝檔案放置區、分割 windows 硬碟、調整 BIOS 的設定，以及正式安裝。影片當中 Ubuntu 的下載點為此連結，而 rufus 則為此連結。在分割硬碟部分，他壓縮了 800 GB，而我則是壓縮 300 GB。我按照他清楚的步驟，一次就安裝完成，且沒有遇到其他問題，建議有相同需求的人可以使用他的教學。神之教學啊！
+更新驅動程式 在我原先的計劃當中，安裝完 Ubuntu 接著是安裝 cuda，但是我怎麼樣都裝不上 cuda。經驗不足的我在這一步驟卡關了非常久。仔細檢查 log，以及發現連 nvidia-smi 這個指令都不能使用時，猜測是驅動程式有問題，依照網路上的一些建議，重新安裝 455 的驅動程式後仍然失敗。努力不懈了一段時間，耐不了飢餓的我決定去吃午餐，在吃飽走回辦公室的路上，我邊走邊上網查資料，發現了有人建議使用 Ubuntu 的 Software &amp;amp; Update更新驅動程式。我使用這個方式調整成 470 的驅動程式，問題就迎刃而解了！吃個東西休息一下總是可以帶給我一些幫助，譬如查到更棒的資料 ：) 來一張 nvidia-smi 給的GPU基礎資訊照片以茲紀念</description>
+    </item>
+    
+  </channel>
+</rss>
