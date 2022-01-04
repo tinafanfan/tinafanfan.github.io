@@ -3,6 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ytfanfan.github.io/tw/blog/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ytfanfan.github.io/tw/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/tw/categories/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ytfanfan.github.io/tw/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/tw/categories/deep-learning/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/tw/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ytfanfan.github.io/tw/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/tw/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-%E9%9B%99%E7%B3%BB%E7%B5%B1/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ytfanfan.github.io/tw/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -32,20 +87,6 @@
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ytfanfan.github.io/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ytfanfan.github.io/tw/categories/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ytfanfan.github.io/tw/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -56,20 +97,6 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://ytfanfan.github.io/tw/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://ytfanfan.github.io/tw/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ytfanfan.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ytfanfan.github.io/tw/"
                 />
   </url>
   

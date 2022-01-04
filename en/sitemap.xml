@@ -4,32 +4,27 @@
   
   <url>
     <loc>https://ytfanfan.github.io/blog/</loc>
-    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ytfanfan.github.io/categories/</loc>
-    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ytfanfan.github.io/tw/categories/"
+                href="https://ytfanfan.github.io/tw/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ytfanfan.github.io/categories/"
+                href="https://ytfanfan.github.io/blog/"
                 />
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/categories/deep-learning/</loc>
-    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+    <loc>https://ytfanfan.github.io/blog/temporal-difference-learning-for-2048-game/</loc>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ytfanfan.github.io/</loc>
-    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
@@ -43,13 +38,18 @@
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-%E9%9B%99%E7%B3%BB%E7%B5%B1/</loc>
-    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ytfanfan.github.io/blog/temporal-difference-learning-for-2048-game/</loc>
-    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+    <loc>https://ytfanfan.github.io/categories/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ytfanfan.github.io/tw/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/categories/"
+                />
   </url>
   
   <url>
