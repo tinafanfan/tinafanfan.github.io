@@ -21,18 +21,6 @@
     </item>
     
     <item>
-      <title>How to install XGBoost in Python for macOS? (2020.02)</title>
-      <link>https://ytfanfan.github.io/blog/how-to-install-xgboost-in-python-for-macos/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ytfanfan.github.io/blog/how-to-install-xgboost-in-python-for-macos/</guid>
-      <description>Our goal is to install the XGBoost package, which can be compiled with multi-threads. Therefore, we need to install &amp;ldquo;GCC&amp;rdquo; which can compile multithread code. Here are the clear goals:
- Install GCC Install XGBoost package  What have already installed:
- Anacoda Python 3 Homebrew  Installation GCC Obtain gcc from homebrew and check the version of gcc.
-$ brew install gcc $ gcc -dumpversion Here, I was suggested by ref 2 to uncomment the following two lines in Makefile.</description>
-    </item>
-    
-    <item>
       <title>Frequentist Statistics vs Bayesian Statistics</title>
       <link>https://ytfanfan.github.io/blog/frequentist-statistics-vs-bayesian-statistics/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>

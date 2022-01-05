@@ -33,7 +33,47 @@
   </url>
   
   <url>
+    <loc>https://ytfanfan.github.io/tw/tags/cuda/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/tw/tags/cudnn/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ytfanfan.github.io/tw/categories/deep-learning/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/tw/tags/deep-learning/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/tw/tags/gpu-driver/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/tw/tags/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ytfanfan.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ytfanfan.github.io/tw/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/tw/tags/ubuntu/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,7 +93,12 @@
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-%E9%9B%99%E7%B3%BB%E7%B5%B1/</loc>
+    <loc>https://ytfanfan.github.io/tw/blog/%E5%9C%A8ubuntu-20.04-%E4%B8%AD%E5%AE%89%E8%A3%9D-cuda-%E5%92%8C-cudnn/</loc>
+    <lastmod>2022-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ytfanfan.github.io/tw/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-20.04-%E9%9B%99%E7%B3%BB%E7%B5%B1/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,20 +128,6 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://ytfanfan.github.io/tw/contact/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://ytfanfan.github.io/tw/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ytfanfan.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ytfanfan.github.io/tw/tags/"
                 />
   </url>
   
