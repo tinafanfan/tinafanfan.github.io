@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Tina Fan</title>
-    <link>https://github.com/tinafanfan/blog/</link>
+    <link>https://github.com/blog/</link>
     <description>Recent content in Blog on Tina Fan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://github.com/tinafanfan/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Temporal difference learning for 2048 game</title>
-      <link>https://github.com/tinafanfan/blog/temporal-difference-learning-for-2048-game/</link>
+      <link>https://github.com/blog/temporal-difference-learning-for-2048-game/</link>
       <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/tinafanfan/blog/temporal-difference-learning-for-2048-game/</guid>
+      <guid>https://github.com/blog/temporal-difference-learning-for-2048-game/</guid>
       <description>MathJax.Hub.Config({ tex2jax: { skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;], inlineMath: [[&#39;$$&#39;,&#39;$$&#39;]] &amp;&amp; [[&#39;$&#39;,&#39;$&#39;]] } });   Temporal difference (TD) learning TD($\lambda$) mechanism TD(0) is one of TD learning method which considers only the next state, yet TD(1) is the other kind of TD learning which take the accumulated reward of the following states in the account. TD(1) is the well-known Monte-Carlo method. The difference between them is the target in evaluation function:</description>
     </item>
     
     <item>
       <title>Frequentist Statistics vs Bayesian Statistics</title>
-      <link>https://github.com/tinafanfan/blog/frequentist-statistics-vs-bayesian-statistics/</link>
+      <link>https://github.com/blog/frequentist-statistics-vs-bayesian-statistics/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/tinafanfan/blog/frequentist-statistics-vs-bayesian-statistics/</guid>
+      <guid>https://github.com/blog/frequentist-statistics-vs-bayesian-statistics/</guid>
       <description>Knowledge is accumulated based on numbers and text. Each number represents the outcome of the observed event. Extract the information among numbers and estimated the randomness behind events are methods to gather knowledge. Based on probability, which describes randomness, Statistics is a collection of approaches that provides summaries and inferences. According to different utilizations on probability, two main schools are developed: Frequentist Statistics and Bayesian Statistics.
 Before knowing the approaches deepen, we can start from an example in which we can apply Statistics.</description>
     </item>
     
     <item>
       <title>A revised chart for cfd-trading.com</title>
-      <link>https://github.com/tinafanfan/blog/visualization-for-cfdtrading/</link>
+      <link>https://github.com/blog/visualization-for-cfdtrading/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/tinafanfan/blog/visualization-for-cfdtrading/</guid>
+      <guid>https://github.com/blog/visualization-for-cfdtrading/</guid>
       <description>According to the article &amp;ldquo;top performers over the past 24 hours&amp;rdquo; in website World Markets Snapshot, there are 2 key points mentioned. In the first paragraph, the author summarizes the numbers in the category by averaging. Then, the individual stock performance followed. However, it is hard to tell the key points in the current version chart that is shown above. The 2 key points are:
  Which category performs the best/worst?</description>
     </item>

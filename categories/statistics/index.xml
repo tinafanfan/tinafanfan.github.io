@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistics on Tina Fan</title>
-    <link>https://github.com/tinafanfan/categories/statistics/</link>
+    <link>https://github.com/categories/statistics/</link>
     <description>Recent content in Statistics on Tina Fan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://github.com/tinafanfan/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.com/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Frequentist Statistics vs Bayesian Statistics</title>
-      <link>https://github.com/tinafanfan/blog/frequentist-statistics-vs-bayesian-statistics/</link>
+      <link>https://github.com/blog/frequentist-statistics-vs-bayesian-statistics/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/tinafanfan/blog/frequentist-statistics-vs-bayesian-statistics/</guid>
+      <guid>https://github.com/blog/frequentist-statistics-vs-bayesian-statistics/</guid>
       <description>Knowledge is accumulated based on numbers and text. Each number represents the outcome of the observed event. Extract the information among numbers and estimated the randomness behind events are methods to gather knowledge. Based on probability, which describes randomness, Statistics is a collection of approaches that provides summaries and inferences. According to different utilizations on probability, two main schools are developed: Frequentist Statistics and Bayesian Statistics.
 Before knowing the approaches deepen, we can start from an example in which we can apply Statistics.</description>
     </item>

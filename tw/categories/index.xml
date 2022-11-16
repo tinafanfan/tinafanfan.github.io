@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Tina Fan</title>
-    <link>https://github.com/tinafanfan/tw/categories/</link>
+    <link>https://github.com/tw/categories/</link>
     <description>Recent content in Categories on Tina Fan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tw</language>
     <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://github.com/tinafanfan/tw/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.com/tw/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Deep Learning</title>
-      <link>https://github.com/tinafanfan/tw/categories/deep-learning/</link>
+      <link>https://github.com/tw/categories/deep-learning/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/tinafanfan/tw/categories/deep-learning/</guid>
+      <guid>https://github.com/tw/categories/deep-learning/</guid>
       <description></description>
     </item>
     
