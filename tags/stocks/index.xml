@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>stocks on Tina Fan</title>
-    <link>https://github.com/tinafanfan/tags/stocks/</link>
+    <link>https://tinafanfan.github.com/tags/stocks/</link>
     <description>Recent content in stocks on Tina Fan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://github.com/tinafanfan/tags/stocks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tinafanfan.github.com/tags/stocks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A revised chart for cfd-trading.com</title>
-      <link>https://github.com/tinafanfan/blog/visualization-for-cfdtrading/</link>
+      <link>https://tinafanfan.github.com/blog/visualization-for-cfdtrading/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/tinafanfan/blog/visualization-for-cfdtrading/</guid>
+      <guid>https://tinafanfan.github.com/blog/visualization-for-cfdtrading/</guid>
       <description>According to the article &amp;ldquo;top performers over the past 24 hours&amp;rdquo; in website World Markets Snapshot, there are 2 key points mentioned. In the first paragraph, the author summarizes the numbers in the category by averaging. Then, the individual stock performance followed. However, it is hard to tell the key points in the current version chart that is shown above. The 2 key points are:
  Which category performs the best/worst?</description>
     </item>
