@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Tina Fan</title>
-    <link>https:///tinafanfan.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Tina Fan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https:///tinafanfan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>stocks</title>
-      <link>https:///tinafanfan.github.io/tags/stocks/</link>
+      <link>/tags/stocks/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https:///tinafanfan.github.io/tags/stocks/</guid>
+      <guid>/tags/stocks/</guid>
       <description></description>
     </item>
     

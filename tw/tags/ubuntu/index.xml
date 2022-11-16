@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ubuntu on Tina Fan</title>
-    <link>https:///tinafanfan.github.io/tw/tags/ubuntu/</link>
+    <link>/tw/tags/ubuntu/</link>
     <description>Recent content in ubuntu on Tina Fan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tw</language>
     <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https:///tinafanfan.github.io/tw/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tw/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>在 Ubuntu 20.04 中安裝 CUDA 和 cuDNN.tw</title>
-      <link>https:///tinafanfan.github.io/tw/blog/%E5%9C%A8ubuntu-20.04-%E4%B8%AD%E5%AE%89%E8%A3%9D-cuda-%E5%92%8C-cudnn/</link>
+      <link>/tw/blog/%E5%9C%A8ubuntu-20.04-%E4%B8%AD%E5%AE%89%E8%A3%9D-cuda-%E5%92%8C-cudnn/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https:///tinafanfan.github.io/tw/blog/%E5%9C%A8ubuntu-20.04-%E4%B8%AD%E5%AE%89%E8%A3%9D-cuda-%E5%92%8C-cudnn/</guid>
+      <guid>/tw/blog/%E5%9C%A8ubuntu-20.04-%E4%B8%AD%E5%AE%89%E8%A3%9D-cuda-%E5%92%8C-cudnn/</guid>
       <description>硬體設備有了圖形處理單元（graphical processing units，GPU），當然也要有相對應的軟體。CUDA 就是 NVIDIA 發明用於 GPU 的平行運算平台和程式設計模型，有了 CUDA 我們才能在寫程式時享受到 GPU 帶來的高速運算能力。而 cuDNN.tw 是為了深層神經網路設計的 GPU 加速原式函式庫，常見的應用有：convolution、pooling 和 softmax 等。在前一個環境(亦是 Ubuntu)中我並沒有安裝，但我想反正這些也是常用之功能，NVIDIA 都大發慈悲的給予加速器，不用白不用，於是一起安裝。
 安裝過程 CUDA CUDA 的版本選擇是初學者容易搞錯的一大步驟，這裡有兩點要注意，一是你要使用的深度學習框架支援到哪個版本，二是驅動程式是支援哪個版本。
 以我這次的安裝為例子，我使用的是 Pytorch，而 Pytorch 目前只支援到版本 11.3，因此我最高只能裝此版本。又根據指令 $ nvidia-smi 所給的 GPU 基本資訊，右上角顯示 470.86 的驅動程式支援的 CUDA 版本為 11.4。前者要求的是 CUDA Runtime API 的版本，後者則是 CUDA Driver API 的版本。CUDA Driver API 能向下兼容，因此我安裝 11.3(&amp;lt;11.4) 是沒有問題的。
@@ -26,10 +26,10 @@ $ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_6
     
     <item>
       <title>在 Windows 中安裝 Ubuntu 20.04 雙系統</title>
-      <link>https:///tinafanfan.github.io/tw/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-20.04-%E9%9B%99%E7%B3%BB%E7%B5%B1/</link>
+      <link>/tw/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-20.04-%E9%9B%99%E7%B3%BB%E7%B5%B1/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https:///tinafanfan.github.io/tw/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-20.04-%E9%9B%99%E7%B3%BB%E7%B5%B1/</guid>
+      <guid>/tw/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-20.04-%E9%9B%99%E7%B3%BB%E7%B5%B1/</guid>
       <description>利用高階 NVIDIA 顯示卡做深度學習可以大幅提身運算效能，然而顯示卡在 windows 系統下會限制其計算能力。因此，這篇文章記錄在 windows 環境中安裝 Ubuntu 雙系統，並更新驅動程式。安裝其他深度學習所需程式則會在下一篇文章中介紹。
 安裝過程 主要分成二部分，分割 windows 硬碟以安裝 Ubuntu 系統，再者是更新 NVIDIA 的驅動程式。
 安裝 Ubuntu 雙系統 分割硬碟安裝 Ubuntu 的步驟我是跟著 YouTube 頻道增廣建文做的，他講解得非常仔細，包含前置作業，使用 USB 作為安裝檔案放置區、分割 windows 硬碟、調整 BIOS 的設定，以及正式安裝。影片當中 Ubuntu 的下載點為此連結，而 rufus 則為此連結。在分割硬碟部分，他壓縮了 800 GB，而我則是壓縮 300 GB。我安裝的 Ubuntu 版本為 20.04，按照他清楚的步驟，一次就安裝完成，且沒有遇到其他問題，建議有相同需求的人可以使用他的教學。神之教學啊！
