@@ -17,9 +17,9 @@
     "body": "According to the article \u0026ldquo;top performers over the past 24 hours\u0026rdquo; in website World Markets Snapshot, there are 2 key points mentioned. In the first paragraph, the author summarizes the numbers in the category by averaging. Then, the individual stock performance followed. However, it is hard to tell the key points in the current version chart that is shown above. The 2 key points are:\n Which category performs the best/worst? Which individual stock performs the best/worst?  I design a bar chart to emphasize the 2 points. Here are my ideas:\n Separate the bar charts by the categories of stock, and Fill red and green colors representing increasing and decreasing respectively.  In this chart, it is easy to recognize which category performance better by the sum of the number of red bars and specify the best stock performance by finding the longest red bar.\n",
     "ref": "/blog/visualization-for-cfdtrading/"
   },{
-    "title": "About YT Fan",
+    "title": "About Tina Fan",
     "date": "",
-    "description": "",
+    "description": "A Statistics PhD student focusing on spatial data analysis.",
     "body": "",
     "ref": "/about/"
   },{
