@@ -3,131 +3,131 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/blog/</loc>
+    <loc>https:///tinafanfan.github.io/tw/blog/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ytfanfan.github.io/blog/"
+                href="https:///tinafanfan.github.io/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ytfanfan.github.io/tw/blog/"
+                href="https:///tinafanfan.github.io/tw/blog/"
                 />
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/categories/</loc>
+    <loc>https:///tinafanfan.github.io/tw/categories/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ytfanfan.github.io/categories/"
+                href="https:///tinafanfan.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ytfanfan.github.io/tw/categories/"
+                href="https:///tinafanfan.github.io/tw/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/tags/cuda/</loc>
+    <loc>https:///tinafanfan.github.io/tw/tags/cuda/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/tags/cudnn/</loc>
+    <loc>https:///tinafanfan.github.io/tw/tags/cudnn/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/categories/deep-learning/</loc>
+    <loc>https:///tinafanfan.github.io/tw/categories/deep-learning/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/tags/deep-learning/</loc>
+    <loc>https:///tinafanfan.github.io/tw/tags/deep-learning/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/tags/gpu-driver/</loc>
+    <loc>https:///tinafanfan.github.io/tw/tags/gpu-driver/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/tags/</loc>
+    <loc>https:///tinafanfan.github.io/tw/tags/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ytfanfan.github.io/tags/"
+                href="https:///tinafanfan.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ytfanfan.github.io/tw/tags/"
+                href="https:///tinafanfan.github.io/tw/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/</loc>
+    <loc>https:///tinafanfan.github.io/tw/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ytfanfan.github.io/"
+                href="https:///tinafanfan.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ytfanfan.github.io/tw/"
+                href="https:///tinafanfan.github.io/tw/"
                 />
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/tags/ubuntu/</loc>
+    <loc>https:///tinafanfan.github.io/tw/tags/ubuntu/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/blog/%E5%9C%A8ubuntu-20.04-%E4%B8%AD%E5%AE%89%E8%A3%9D-cuda-%E5%92%8C-cudnn/</loc>
+    <loc>https:///tinafanfan.github.io/tw/blog/%E5%9C%A8ubuntu-20.04-%E4%B8%AD%E5%AE%89%E8%A3%9D-cuda-%E5%92%8C-cudnn/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-20.04-%E9%9B%99%E7%B3%BB%E7%B5%B1/</loc>
+    <loc>https:///tinafanfan.github.io/tw/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-20.04-%E9%9B%99%E7%B3%BB%E7%B5%B1/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/about/</loc>
+    <loc>https:///tinafanfan.github.io/tw/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ytfanfan.github.io/about/"
+                href="https:///tinafanfan.github.io/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ytfanfan.github.io/tw/about/"
+                href="https:///tinafanfan.github.io/tw/about/"
                 />
   </url>
   
   <url>
-    <loc>https://ytfanfan.github.io/tw/contact/</loc>
+    <loc>https:///tinafanfan.github.io/tw/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ytfanfan.github.io/contact/"
+                href="https:///tinafanfan.github.io/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ytfanfan.github.io/tw/contact/"
+                href="https:///tinafanfan.github.io/tw/contact/"
                 />
   </url>
   
