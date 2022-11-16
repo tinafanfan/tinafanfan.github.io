@@ -3,121 +3,121 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/</loc>
+    <loc>https://github.com/tinafanfan/blog/</loc>
     <lastmod>2021-04-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="/tw/blog/"
+                href="https://github.com/tinafanfan/tw/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/blog/"
+                href="https://github.com/tinafanfan/blog/"
                 />
   </url>
   
   <url>
-    <loc>/blog/temporal-difference-learning-for-2048-game/</loc>
+    <loc>https://github.com/tinafanfan/blog/temporal-difference-learning-for-2048-game/</loc>
     <lastmod>2021-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://github.com/tinafanfan/</loc>
     <lastmod>2021-04-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="/tw/"
+                href="https://github.com/tinafanfan/tw/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://github.com/tinafanfan/"
                 />
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://github.com/tinafanfan/categories/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="/tw/categories/"
+                href="https://github.com/tinafanfan/tw/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://github.com/tinafanfan/categories/"
                 />
   </url>
   
   <url>
-    <loc>/blog/frequentist-statistics-vs-bayesian-statistics/</loc>
+    <loc>https://github.com/tinafanfan/blog/frequentist-statistics-vs-bayesian-statistics/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/statistics/</loc>
+    <loc>https://github.com/tinafanfan/categories/statistics/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/visualization-for-cfdtrading/</loc>
+    <loc>https://github.com/tinafanfan/blog/visualization-for-cfdtrading/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/stocks/</loc>
+    <loc>https://github.com/tinafanfan/tags/stocks/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://github.com/tinafanfan/tags/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="/tw/tags/"
+                href="https://github.com/tinafanfan/tw/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://github.com/tinafanfan/tags/"
                 />
   </url>
   
   <url>
-    <loc>/categories/visualization/</loc>
+    <loc>https://github.com/tinafanfan/categories/visualization/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://github.com/tinafanfan/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="/tw/about/"
+                href="https://github.com/tinafanfan/tw/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/about/"
+                href="https://github.com/tinafanfan/about/"
                 />
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>https://github.com/tinafanfan/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="/tw/contact/"
+                href="https://github.com/tinafanfan/tw/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/contact/"
+                href="https://github.com/tinafanfan/contact/"
                 />
   </url>
   

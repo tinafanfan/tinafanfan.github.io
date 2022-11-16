@@ -3,131 +3,131 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tw/blog/</loc>
+    <loc>https://github.com/tinafanfan/tw/blog/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/blog/"
+                href="https://github.com/tinafanfan/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="/tw/blog/"
+                href="https://github.com/tinafanfan/tw/blog/"
                 />
   </url>
   
   <url>
-    <loc>/tw/categories/</loc>
+    <loc>https://github.com/tinafanfan/tw/categories/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://github.com/tinafanfan/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="/tw/categories/"
+                href="https://github.com/tinafanfan/tw/categories/"
                 />
   </url>
   
   <url>
-    <loc>/tw/tags/cuda/</loc>
+    <loc>https://github.com/tinafanfan/tw/tags/cuda/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tw/tags/cudnn/</loc>
+    <loc>https://github.com/tinafanfan/tw/tags/cudnn/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tw/categories/deep-learning/</loc>
+    <loc>https://github.com/tinafanfan/tw/categories/deep-learning/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tw/tags/deep-learning/</loc>
+    <loc>https://github.com/tinafanfan/tw/tags/deep-learning/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tw/tags/gpu-driver/</loc>
+    <loc>https://github.com/tinafanfan/tw/tags/gpu-driver/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tw/tags/</loc>
+    <loc>https://github.com/tinafanfan/tw/tags/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://github.com/tinafanfan/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="/tw/tags/"
+                href="https://github.com/tinafanfan/tw/tags/"
                 />
   </url>
   
   <url>
-    <loc>/tw/</loc>
+    <loc>https://github.com/tinafanfan/tw/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://github.com/tinafanfan/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="/tw/"
+                href="https://github.com/tinafanfan/tw/"
                 />
   </url>
   
   <url>
-    <loc>/tw/tags/ubuntu/</loc>
+    <loc>https://github.com/tinafanfan/tw/tags/ubuntu/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tw/blog/%E5%9C%A8ubuntu-20.04-%E4%B8%AD%E5%AE%89%E8%A3%9D-cuda-%E5%92%8C-cudnn/</loc>
+    <loc>https://github.com/tinafanfan/tw/blog/%E5%9C%A8ubuntu-20.04-%E4%B8%AD%E5%AE%89%E8%A3%9D-cuda-%E5%92%8C-cudnn/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tw/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-20.04-%E9%9B%99%E7%B3%BB%E7%B5%B1/</loc>
+    <loc>https://github.com/tinafanfan/tw/blog/%E5%9C%A8-windows-%E4%B8%AD%E5%AE%89%E8%A3%9D-ubuntu-20.04-%E9%9B%99%E7%B3%BB%E7%B5%B1/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tw/about/</loc>
+    <loc>https://github.com/tinafanfan/tw/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/about/"
+                href="https://github.com/tinafanfan/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="/tw/about/"
+                href="https://github.com/tinafanfan/tw/about/"
                 />
   </url>
   
   <url>
-    <loc>/tw/contact/</loc>
+    <loc>https://github.com/tinafanfan/tw/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/contact/"
+                href="https://github.com/tinafanfan/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="/tw/contact/"
+                href="https://github.com/tinafanfan/tw/contact/"
                 />
   </url>
   
